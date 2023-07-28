@@ -266,6 +266,7 @@ header .search-bar-container label:hover{
 .home .controls .vid-btn.active{
     background:var(--orange);
 }
+
 .book .row{
     display: flex;
     flex-wrap: wrap;
@@ -278,6 +279,7 @@ header .search-bar-container label:hover{
     height: 100%;
     
 }
+
 .book .row .image{
     flex: 1 1 40rem;
 }
@@ -546,12 +548,57 @@ section{padding: 2rem;}
         width: 100%;
     }
     
+.footer{
+    background: #333;
+}
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.footer .box-container .box{
+    padding: 1rem 0;
+    flex: 1 1 25rem;
+}
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    padding: .7rem 0;
+    color: #fff;
+    text-decoration: underline;
+}
+.footer .box-container .box p{
+    font-size: 1.5rem;
+    padding: .7rem 0;
+    color: #eee;
+}
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    padding: .7rem 0;
+    color: #eee;
+}
+.footer .box-container .box a:hover{
+    color: var(--orange);
+    text-decoration: underline;
+}
 
-
-
-
-
-
-
-
-
+.footer .credit{
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    border-top: .1rem solid rgba(255,255,255,.2);
+}
+.footer .credit span{
+    color: var(--orange);
+}
+.footer .box1 h2{
+    color: rgba(255, 255, 255, 0.884);
+    text-decoration: underline;
+}
+.footer .box1 a{
+    color: rgba(250, 29, 29, 0.911);
+    font-size: 1.5rem;
+}
